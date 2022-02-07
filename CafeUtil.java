@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class CafeUtil {
 
@@ -21,14 +23,15 @@ public class CafeUtil {
     //     return orderTotal;
     // }
 
-    // public void displayMenu(ArrayList<String>menuitems) {
-    //     String cafeList [];
-    //     for(string i = 0; i < menuitems.length; i++){
-    //         String cafeList = menuitems.get(i);
-    //         i++;
-    //     }
-    //     return cafeList;
-    // }
+    public void displayMenu(ArrayList<String>menuitems) {
+        for(int i = 0; i < menuitems.size(); i++){
+            System.out.println(i + " " + menuitems.get(i));
+        }
+        // int i = 0;
+        // for(String item : menuitems){
+        //     System.out.println(item);
+        // }
+    }
 
     // public void addCutomer(ArrayList<String>customer){
 
